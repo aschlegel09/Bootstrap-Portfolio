@@ -11,12 +11,12 @@
     <title>My Portfolio</title>
 </head>
 
-<body background="assets/images/paper_fibers.png">
-    <nav class="border-bottom navbar navbar-expand-lg bg-white">
+<body>
+    <nav class="border-bottom navbar navbar-expand-lg bg-white" id="no-ptb">
         <div class="container" style="width: 960px">
-            <div class="col-md-8">
-                <div class="position-relative pb-2 pt-2 float-left pr-2" id="teal">
-                    <h3 class="ml-4 navbar-brand text-light">Andrew Schlegel</h3>
+            <div class="col-md-8" id="pl-fix">
+                <div class="position-relative pb-2 pt-3 float-left pr-2" id="teal">
+                    <h3 class="ml-4 navbar-brand text-light font-weight-bold" style="font-family: 'Georgia', Times, Times New Roman, serif;">Andrew Schlegel</h3>
                 </div>
             </div>
             <div class="col-md-4">
@@ -38,38 +38,37 @@
             </div>
         </div>
     </nav>
-    <div class="wrapper container" style="width:960px">
-        <div class="mt-4 mb-5 bg-white flexe border jumbotron jumbotron-fluid center">
-            <div class="row border-bottom">
-                <div class="col-md-4">
-                    <h2 class="ml-4 teal">Contact</h2>
+    <div class="container" style="width:960px;">
+        <div class="mt-4 flex bg-white border jumbotron jumbotron-fluid center" id="jumbo-fix">
+            <div class="row"  id="pt-fix">
+                <div class="col-md-12">
+                    <h2 class="ml-4 teal font-weight-bold"  style="margin-bottom: 20px; font-family: 'Georgia', Times, Times New Roman, serif;">Contact</h2>
+                    <hr style="border-width: 2px">
                 </div>
             </div>
-            <!-- <div class="mt-4 row">
-                <div class="col-md-12"> -->
             <form class="container">
                 <div class="form-group">
-                    <label class="col-sm-2 col-form-label">Name</label>
+                    <label class="col-md-2 col-form-label text-muted">Name</label>
 
                 </div>
                 <div class="form-group">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <input type="name" class="form-control" id="name" placeholder="John Smith">
                     </div>
 
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2 col-form-label">Email</label>
+                    <label class="col-md-2 col-form-label text-muted">Email</label>
 
                 </div>
                 <div class="form-group">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <input type="email" class="form-control" id="inputEmail" placeholder="email@gmail.com">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label class="col-sm-2 col-form-label">Message</label>
+                    <label class="col-md-2 col-form-label text-muted">Message</label>
                 </div>
 
                 <div class="form-group">
@@ -78,31 +77,31 @@
                     </div>
                 </div>
 
-                <div class="col-sm-2">
-                    <button type="submit" class="btn text-white" id="teal4">Submit</button>
+                <div class="col-sm-3">
+                    <button type="submit" class="btn text-white pl-4 pr-4" id="teal4">Submit</button>
                 </div>
 
             </form>
 
         </div>
     </div>
-    </div>
-    </div>
-    </div>
+   
+    <footer class="footer" style="bottom: 0; width: 100%;" id="footer">
     <div class="row">
         <div class="col-md-12">
-            <div class="pt-2" id="teal3"></div>
+            	<div class="pt-2" id="teal3"></div>
+			
+        		<div class="row">
+        			<div class="col-md-12">
+            			<div class="span12 text-center pt-3 bg-dark">
+                			<span class="text-muted small">Copyright &copy;</span>
+            			</div>
+					</div>
+   				</div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="span12 text-center pt-3 bg-dark footer navbar-fixed-bottom">
-                <span class="text-muted small">Copyright &copy;</span>
-            </div>
-        </div>
-
-    </div>
-    </div>
+    
+</footer>
 </body>
 
 </html>
