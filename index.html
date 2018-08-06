@@ -11,22 +11,22 @@
     <title>My Portfolio</title>
 </head>
 
-<body background="assets/images/paper_fibers.png">
-    <nav class="border-bottom navbar navbar-expand-lg bg-white">
+<body>
+    <nav class="border-bottom navbar navbar-expand-lg bg-white" id="no-ptb">
         <div class="wrapper container" style="width: 960px">
-            <div class="col-md-8">
-                <div class="position-relative pb-2 pt-2 float-left pr-2" id="teal">
-                    <h3 class="ml-4 navbar-brand text-light">Andrew Schlegel</h3>
+            <div class="col-md-8" id="pl-fix">
+                <div class="position-relative pb-2 pt-3 float-left pr-2" id="teal">
+                    <h3 class="ml-4 navbar-brand text-light font-weight-bold" style="font-family: 'Georgia', Times, Times New Roman, serif;">Andrew Schlegel</h3>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="float-right position-relative" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-link active">
-                            <a class="text-muted nav-link border-right pr-4 arial" href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">About</a>
+                            <a class="text-muted nav-link border-right pr-4 arial navitem" href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">About</a>
                         </li>
 
-                        <li class="nav-link active">
+                        <li class="nav-link active"  id="navitem">
                             <a class="text-muted nav-link border-right pr-4 arial" href="portfolio.html">Portfolio</a>
                         </li>
 
@@ -38,17 +38,18 @@
             </div>
         </div>
     </nav>
-    <div class="wrapper container" style="width:960px">
-        <div class="mt-4 mb-5 bg-white flexe border jumbotron jumbotron-fluid center">
-            <div class="row border-bottom">
-                <div class="col-md-4">
-                    <h2 class="ml-4 teal">About Me</h2>
+    <div class="wrapper container" style="width: 960px">
+        <div class="mt-4 mb-5 bg-white flexe border jumbotron jumbotron-fluid center"  id="jumbo-fix">
+            <div class="row"  id="pt-fix">
+                <div class="col-md-12">
+                    <h2 class="ml-4 teal font-weight-bold" style="margin-bottom: 20px; font-family: 'Georgia', Times, Times New Roman, serif;">About Me</h2>
+                    <hr style="border-width: 2px">
                 </div>
             </div>
             <div class="mt-4 row">
                 <div class="col-md-12">
                     <div class="col-md-2">
-                        <img class="float-left ml-2 pr-3" width="160px" src="assets/images/personal-pic.jpg">
+                        <img class="float-left ml-2 pr-3" width="160" src="assets/images/personal-pic.jpg" alt="">
                     </div>
                     <div class="mw-100 col-md-10">
                         <p class="ml-2 arial text-muted">My name is Andy Schlegel, and I am a Marketing Assistant in the process of switching
@@ -74,21 +75,22 @@
             </div>
         </div>
     </div>
-
+<footer class="footer" style="bottom: 0; width: 100%;" id="footer">
     <div class="row">
         <div class="col-md-12">
-            <div class="pt-2" id="teal3"></div>
+            	<div class="pt-2" id="teal3"></div>
+			
+        		<div class="row">
+        			<div class="col-md-12">
+            			<div class="span12 text-center pt-3 bg-dark">
+                			<span class="text-muted small">Copyright &copy;</span>
+            			</div>
+					</div>
+   				</div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="span12 text-center pt-3 bg-dark footer navbar-fixed-bottom">
-                <span class="text-muted small">Copyright &copy;</span>
-            </div>
-        </div>
-
-    </div>
-    </div>
+    
+</footer>
 </body>
 
 </html>
