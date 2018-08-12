@@ -23,25 +23,25 @@ body {
 
 #tealdiv {
     background-color: #4aaaa5;
-    width: 220px;
+    /* width: 220px; */
 }
 #tealdiv1 {
     background-color: #4aaaa5;
-    width: 220px;
+    /* width: 220px; */
 }
 
 #tealdiv2 {
     background-color: #4aaaa5;
-    width: 220px;
+    /* width: 220px; */
 }
 #tealdiv3 {
     background-color: #4aaaa5;
-    width: 220px;
+    /* width: 220px; */
 }
 
 #tealdiv4 {
     background-color: #4aaaa5;
-    width: 220px;
+    /* width: 220px; */
 }
 
 #no-ptb {
@@ -106,7 +106,15 @@ hr {
     .navbar-nav {
         float: none;
     }
-    
+    .card-img-overlay {
+		width: 50%;
+		
+	}
+	
+	/* .row {
+		width: 500px;
+		margin: 0 auto;
+	} */
 }
 
 /*works for header row*/
